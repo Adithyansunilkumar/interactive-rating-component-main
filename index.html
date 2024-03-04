@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+  <main class="main-div">
+    <div class="box-div">
+      <div class="icon-div">
+        <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.067.43 1.99 4.031c.112.228.33.386.58.422l4.45.647a.772.772 0 0 1 .427 1.316l-3.22 3.138a.773.773 0 0 0-.222.683l.76 4.431a.772.772 0 0 1-1.12.813l-3.98-2.092a.773.773 0 0 0-.718 0l-3.98 2.092a.772.772 0 0 1-1.119-.813l.76-4.431a.77.77 0 0 0-.222-.683L.233 6.846A.772.772 0 0 1 .661 5.53l4.449-.647a.772.772 0 0 0 .58-.422L7.68.43a.774.774 0 0 1 1.387 0Z" fill="#FC7614"/></svg>
+      </div>
+      <br>
+      <br>
+      <br>
+      <p class="question"> How did we do?</p>
+      <p class="appreciation" >Please let us know how we did with your<br>support request. All feedback is appreciated<br>to help us improve our offering!</p>
+      <div class="rating-section">
+        <div id="ratingoption1" class="rating-option-1">
+          <label id="label1">1</label>
+        </div>
+        <div id="ratingoption2" class="rating-option-2">
+          <label id="label2">2</label>
+        </div>
+        <div id="ratingoption3" class="rating-option-3">
+          <label id="label3">3</label>
+        </div>
+        <div id="ratingoption4" class="rating-option-4">
+          <label id="label4">4</label>
+        </div>
+        <div id="ratingoption5" class="rating-option-5">
+          <label id="label5">5</label>
+        </div>
+      </div>
+      <div id="submitbuttondiv" class="submit-button-div">
+      <button type="button" id="submitbutton" class="submit-button" >SUBMIT</button>
+      </div>
+    </div>
+
+
+
+
+
+    <div style="display: none;" id="thankyoubox" class="box-div2">
+      <div class="thank-you-img-div">
+      <img class="thank-you-img" src="images/illustration-thank-you.svg">
+      </div>
+      <div class="selection">
+        <label id="yourselection"></label>
+      </div>
+      <h2 class="thank-you">Thank you!</h2>
+      <div class="sub-thank">
+        <p>We appreciate you taking the time to give a<br>rating. If you ever need more support, don't<br>hesitate to get in touch!</p>
+      </div>
+    </div>
+
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
